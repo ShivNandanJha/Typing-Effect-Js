@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+*{
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+   background-color: bisque;
+    font-family: "Rubik",sans-serif;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90vmin;
+    height: 40vh;
+    background-color: #011522;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(36, 24, 1, 0.474);
+}
+.body p{
+     padding-right: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 25px;
+   line-break: strict;
+   text-align: justify;
+
+}
+hr{ opacity: 20%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.number_line{
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 20px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 9px;
+    opacity: 30%;
+}
+.head {
+    background-color: rgba(0, 0, 0, 0.385);
+   padding: 5px;
+   align-items: start;
+   justify-content: start;
+    display: flex;
+    flex-direction: row;
+  }
+  .body {
+    /* margin:  0 0 0 10px; */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+ 
+  }
+  .red {
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #ff605c;
+    border-radius: 50%;
+  }
+  .yellow {
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #ffbd44;
+    border-radius: 50%;
+  }
+  .green {
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #00ca4e;
+    border-radius: 50%;
+  }
+ 

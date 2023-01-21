@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+      </div>
+      <hr />
+
+      <div class="body">
+        <div class="number_line">
+          <span>1</span> <span>2</span><span>3</span><span>4</span><span>5</span
+          ><span>6</span>
+        </div>
+        <p><span id="auto-type"></span></p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var typed = new Typed("#auto-type", {
+        strings: [
+            " Hello! My name is Shiv Nandan Jha <br> I am a highly skilled and experienced web developer with a passion for creating dynamic, user-friendly websites and web applications. I am proficient in a variety of programming languages including HTML, CSS, JavaScript, and frameworks like Bootsrap and ReactJS Library ."
+        ],
+        typeSpeed: 70,
+        backSpeed: 20,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
